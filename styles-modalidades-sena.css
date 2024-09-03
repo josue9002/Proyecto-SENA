@@ -331,11 +331,13 @@ section#bienvenidos {
     padding: 1rem 2rem;
     margin-right: 0.2rem;
     cursor: pointer;
-    background: #c1dfff;
-    border: 1px solid #469af4;
+    color: #fff;
+    background: #007BFF;
+    border: 1px solid #0056b3;
     font-weight: bold;
     transition: background ease 0.2s;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .tabs .tab {
@@ -355,7 +357,7 @@ section#bienvenidos {
 	display: none;
 }
 .tabs input[type="radio"]:checked + label {
-	background: #007BFF;
+	background: #0056b3;
     color: #fff;
 }
 .tabs input[type="radio"]:checked + label + .tab {
