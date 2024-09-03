@@ -510,6 +510,7 @@ main {
     padding: 40px;
     flex: 1.1;
     text-align: justify;
+    transition: flex 0.5s ease;
 }
 
 .heading {
@@ -528,6 +529,12 @@ main {
     margin: 0.5rem auto;
     animation: underline-grow 2s ease-out;
 }
+
+.hidden-image {
+    display: none;
+}
+
+
 
 @keyframes underline-grow {
     from {
